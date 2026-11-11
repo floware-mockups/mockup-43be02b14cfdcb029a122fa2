@@ -1,0 +1,398 @@
+{
+  "title": "Gestione dei volontari civici",
+  "description": "Prototipo navigabile per consultare l’anagrafica, registrare disponibilità, assegnare turni e riepilogare i volontari attivi per ambito.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica dei volontari attivi, dei loro ambiti e dei turni assegnati.",
+      "metrics": [
+        {
+          "label": "Volontari attivi",
+          "value": "18"
+        },
+        {
+          "label": "Sorveglianza scuole",
+          "value": "7"
+        },
+        {
+          "label": "Biblioteca",
+          "value": "6"
+        },
+        {
+          "label": "Eventi",
+          "value": "5"
+        },
+        {
+          "label": "Turni assegnati",
+          "value": "24"
+        }
+      ],
+      "columns": [
+        "Ambito",
+        "Volontari attivi",
+        "Turni assegnati"
+      ],
+      "rows": [
+        [
+          "Sorveglianza scuole",
+          "7",
+          "9"
+        ],
+        [
+          "Biblioteca",
+          "6",
+          "7"
+        ],
+        [
+          "Eventi",
+          "5",
+          "8"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "volontari",
+      "title": "Anagrafica volontari",
+      "description": "Elenco filtrabile dei volontari civici e dei rispettivi ambiti e disponibilità settimanali.",
+      "metrics": [
+        {
+          "label": "Volontari registrati",
+          "value": "18"
+        },
+        {
+          "label": "Disponibilità completa",
+          "value": "15"
+        }
+      ],
+      "columns": [
+        "Nome",
+        "Ambito",
+        "Disponibilità settimanale",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Sorveglianza scuole",
+          "Lun, mer",
+          "Attivo"
+        ],
+        [
+          "Vela",
+          "Biblioteca",
+          "Mar, gio",
+          "Attivo"
+        ],
+        [
+          "Nubi",
+          "Eventi",
+          "Ven, sab",
+          "Attivo"
+        ],
+        [
+          "Riva",
+          "Sorveglianza scuole",
+          "Lun, gio",
+          "Attivo"
+        ],
+        [
+          "Timo",
+          "Biblioteca",
+          "Mer, ven",
+          "Attivo"
+        ],
+        [
+          "Zefiro",
+          "Eventi",
+          "Sab, dom",
+          "Attivo"
+        ],
+        [
+          "Menta",
+          "Sorveglianza scuole",
+          "Mar, ven",
+          "Attivo"
+        ],
+        [
+          "Faro",
+          "Biblioteca",
+          "Lun, mer",
+          "Attivo"
+        ],
+        [
+          "Piuma",
+          "Eventi",
+          "Gio, sab",
+          "Attivo"
+        ],
+        [
+          "Lilla",
+          "Sorveglianza scuole",
+          "Mer, gio",
+          "Attivo"
+        ],
+        [
+          "Quarzo",
+          "Biblioteca",
+          "Mar, sab",
+          "Attivo"
+        ],
+        [
+          "Bosco",
+          "Eventi",
+          "Ven, dom",
+          "Attivo"
+        ],
+        [
+          "Alba",
+          "Sorveglianza scuole",
+          "Lun, ven",
+          "Attivo"
+        ],
+        [
+          "Cobalto",
+          "Biblioteca",
+          "Gio, ven",
+          "Attivo"
+        ],
+        [
+          "Duna",
+          "Eventi",
+          "Mar, dom",
+          "Attivo"
+        ],
+        [
+          "Sirocco",
+          "Sorveglianza scuole",
+          "Mar, gio",
+          "Attivo"
+        ],
+        [
+          "Marea",
+          "Biblioteca",
+          "Lun, sab",
+          "Attivo"
+        ],
+        [
+          "Fico",
+          "Eventi",
+          "Mer, sab",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Nome",
+        "Ambito",
+        "Disponibilità settimanale",
+        "Stato"
+      ]
+    },
+    {
+      "id": "disponibilita",
+      "title": "Disponibilità",
+      "description": "Consulta le disponibilità settimanali per organizzare coperture e turni.",
+      "metrics": [
+        {
+          "label": "Giorni coperti",
+          "value": "7"
+        },
+        {
+          "label": "Volontari disponibili nel fine settimana",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Nome",
+        "Ambito",
+        "Disponibilità settimanale",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Sorveglianza scuole",
+          "Lun, mer",
+          "Attivo"
+        ],
+        [
+          "Vela",
+          "Biblioteca",
+          "Mar, gio",
+          "Attivo"
+        ],
+        [
+          "Nubi",
+          "Eventi",
+          "Ven, sab",
+          "Attivo"
+        ],
+        [
+          "Riva",
+          "Sorveglianza scuole",
+          "Lun, gio",
+          "Attivo"
+        ],
+        [
+          "Timo",
+          "Biblioteca",
+          "Mer, ven",
+          "Attivo"
+        ],
+        [
+          "Zefiro",
+          "Eventi",
+          "Sab, dom",
+          "Attivo"
+        ],
+        [
+          "Menta",
+          "Sorveglianza scuole",
+          "Mar, ven",
+          "Attivo"
+        ],
+        [
+          "Faro",
+          "Biblioteca",
+          "Lun, mer",
+          "Attivo"
+        ],
+        [
+          "Piuma",
+          "Eventi",
+          "Gio, sab",
+          "Attivo"
+        ],
+        [
+          "Lilla",
+          "Sorveglianza scuole",
+          "Mer, gio",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Nome",
+        "Ambito",
+        "Disponibilità settimanale",
+        "Stato"
+      ]
+    },
+    {
+      "id": "turni",
+      "title": "Turni assegnati",
+      "description": "Elenco filtrabile dei turni programmati per ambito e volontario.",
+      "metrics": [
+        {
+          "label": "Turni programmati",
+          "value": "24"
+        },
+        {
+          "label": "Ambiti coperti",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Ambito",
+        "Volontario",
+        "Giorno",
+        "Fascia oraria",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Sorveglianza scuole",
+          "Lumo",
+          "Lunedì",
+          "08:00–09:00",
+          "Assegnato"
+        ],
+        [
+          "Biblioteca",
+          "Vela",
+          "Martedì",
+          "15:00–17:00",
+          "Assegnato"
+        ],
+        [
+          "Eventi",
+          "Nubi",
+          "Venerdì",
+          "17:00–19:00",
+          "Assegnato"
+        ],
+        [
+          "Sorveglianza scuole",
+          "Riva",
+          "Giovedì",
+          "08:00–09:00",
+          "Assegnato"
+        ],
+        [
+          "Biblioteca",
+          "Timo",
+          "Mercoledì",
+          "15:00–17:00",
+          "Assegnato"
+        ],
+        [
+          "Eventi",
+          "Zefiro",
+          "Sabato",
+          "10:00–12:00",
+          "Assegnato"
+        ],
+        [
+          "Sorveglianza scuole",
+          "Menta",
+          "Martedì",
+          "08:00–09:00",
+          "Assegnato"
+        ],
+        [
+          "Biblioteca",
+          "Faro",
+          "Lunedì",
+          "15:00–17:00",
+          "Assegnato"
+        ],
+        [
+          "Eventi",
+          "Piuma",
+          "Giovedì",
+          "17:00–19:00",
+          "Assegnato"
+        ],
+        [
+          "Sorveglianza scuole",
+          "Lilla",
+          "Mercoledì",
+          "08:00–09:00",
+          "Assegnato"
+        ],
+        [
+          "Biblioteca",
+          "Quarzo",
+          "Sabato",
+          "10:00–12:00",
+          "Assegnato"
+        ],
+        [
+          "Eventi",
+          "Bosco",
+          "Domenica",
+          "10:00–12:00",
+          "Assegnato"
+        ]
+      ],
+      "form": [
+        "Ambito",
+        "Volontario",
+        "Giorno",
+        "Fascia oraria",
+        "Stato"
+      ]
+    }
+  ]
+}
